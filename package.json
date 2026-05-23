@@ -1,0 +1,11 @@
+{
+  "name": "adhd-app",
+  "private": true,
+  "scripts": {
+    "build": "cd frontend-mobile && npm install && npm run build && cd ../backend && npm install",
+    "start": "node backend/src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
