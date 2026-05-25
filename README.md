@@ -16,10 +16,6 @@ anchor-beta 是一个硬件联动的专注启动器：把手机放到 Dock 上�
 
 完整演示视频：[docs/demo/anchor-beta-demo-2026-05-24.mp4](docs/demo/anchor-beta-demo-2026-05-24.mp4)
 
-关键页面截图：
-
-![Focus page](docs/images/focus-page.png)
-![Complete page](docs/images/complete-page.png)
 
 ## 核心功能
 
