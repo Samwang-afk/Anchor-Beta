@@ -1,5 +1,5 @@
 {
-  "name": "focusdock",
+  "name": "anchor-beta",
   "private": true,
   "scripts": {
     "build": "cd frontend-mobile && npm install && npm run build && cd ../backend && npm install",

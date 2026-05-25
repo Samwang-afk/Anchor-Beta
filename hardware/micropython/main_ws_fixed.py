@@ -35,7 +35,7 @@ WS_HOST = "YOUR_SERVER_HOST"
 WS_PORT = 80
 WS_PATH = "/ws/device"
 
-DEVICE_NAME = "focusdock-esp32"
+DEVICE_NAME = "anchor-beta-esp32"
 
 
 # ==================================================
@@ -1305,7 +1305,7 @@ def handle_touch_event(current_touch_pressed, current_on_deck):
 def setup():
     print()
     print("====================================")
-    print(" FocusDock Full Hardware + WS Main")
+    print(" anchor-beta Full Hardware + WS Main")
     print("====================================")
 
     print("[Pin] VL53L0X SDA:", TOF_SDA, "SCL:", TOF_SCL)
@@ -1315,7 +1315,7 @@ def setup():
     print("[WS] Host:", WS_HOST)
     print("[WS] Path:", WS_PATH)
 
-    oled_two_lines("FocusDock", "Booting...")
+    oled_two_lines("anchor-beta", "Booting...")
     led_clear()
 
     setup_wifi()

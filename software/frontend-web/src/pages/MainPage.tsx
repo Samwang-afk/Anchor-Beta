@@ -328,7 +328,7 @@ export function MainPage() {
       <div style={{ height: 56, background: '#fff', borderBottom: '1px solid rgba(0,0,0,0.07)', display: 'flex', alignItems: 'center', padding: '0 32px', gap: 16, flexShrink: 0 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
           <img src="/otter-coin.png" alt="水獭" style={{ width: 28, height: 28, objectFit: 'contain' }} />
-          <span style={{ fontSize: 17, fontWeight: 700, color: '#1a1a1a' }}>FocusDock</span>
+          <span style={{ fontSize: 17, fontWeight: 700, color: '#1a1a1a' }}>anchor-beta</span>
         </div>
         <div style={{ flex: 1 }} />
         <div className={`pill ${connected ? 'connected' : ''}`}>

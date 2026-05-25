@@ -1,6 +1,6 @@
-# FocusDock Web Frontend
+# anchor-beta Web Frontend
 
-横屏/桌面演示界面，适合在电脑浏览器上展示 FocusDock 的任务、专注和统计信息。
+横屏/桌面演示界面，适合在电脑浏览器上展示 anchor-beta 的任务、专注和统计信息。
 
 ```bash
 npm install

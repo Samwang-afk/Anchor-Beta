@@ -30,7 +30,7 @@ function handleSttWs(frontWs) {
         appid: Number(appid),
         appkey: appkey,
         dev_pid: 15372,
-        cuid: 'focusdock-client',
+        cuid: 'anchor-beta-client',
         format: 'pcm',
         sample: 16000,
       },

@@ -1,6 +1,6 @@
-# FocusDock VL53L0X Hardware Test
+# anchor-beta VL53L0X Hardware Test
 
-This note documents the current ESP32 + MicroPython distance sensor test for the FocusDock hardware MVP.
+This note documents the current ESP32 + MicroPython distance sensor test for the anchor-beta hardware MVP.
 
 ## Hardware
 
@@ -69,7 +69,7 @@ RAW_COVERED_DISTANCE_MM = 40
 CALIBRATED_COVERED_DISTANCE_MM = 20
 ```
 
-This means a full sensor cover reads about `40mm` physically, but FocusDock treats that as logical `20mm`.
+This means a full sensor cover reads about `40mm` physically, but anchor-beta treats that as logical `20mm`.
 
 If your assembled dock reads a different value when the phone is placed on it, update `RAW_COVERED_DISTANCE_MM` in `distjudge.py`.
 

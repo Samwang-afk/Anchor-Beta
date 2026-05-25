@@ -52,7 +52,7 @@ let _db: IDBPDatabase<AppDB> | null = null
 
 async function db() {
   if (_db) return _db
-  _db = await openDB<AppDB>('focusdock', 2, {
+  _db = await openDB<AppDB>('anchor-beta', 2, {
     upgrade(db, oldVersion) {
       // v1：创建原始 3 张表
       if (oldVersion < 1) {

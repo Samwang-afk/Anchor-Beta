@@ -37,7 +37,7 @@ router.post('/', express.raw({ type: '*/*', limit: '10mb' }), async (req, res) =
             appid: Number(appid),
             appkey: appkey,
             dev_pid: 15372,        // 中文普通话 + 加强标点
-            cuid: 'focusdock-client',
+            cuid: 'anchor-beta-client',
             format: 'pcm',
             sample: 16000,
           },
