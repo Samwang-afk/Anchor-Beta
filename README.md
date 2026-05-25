@@ -1,6 +1,6 @@
-# FocusDock
+# anchor-beta
 
-FocusDock 是一个硬件联动的专注启动器：把手机放到 Dock 上，网页自动进入全屏专注倒计时；完成一个小任务后，网页给出鼓励和休息流程，同时向 ESP32 发送祝贺提示。
+anchor-beta 是一个硬件联动的专注启动器：把手机放到 Dock 上，网页自动进入全屏专注倒计时；完成一个小任务后，网页给出鼓励和休息流程，同时向 ESP32 发送祝贺提示。
 
 项目由三部分组成：
 
@@ -10,9 +10,11 @@ FocusDock 是一个硬件联动的专注启动器：把手机放到 Dock 上，�
 
 ## 演示
 
-项目演示视频：
+> GitHub README 想直接显示视频播放器时，需要把 `.mp4` 上传到 GitHub 的 Markdown 编辑器，得到 `https://github.com/user-attachments/assets/...` 形式的视频地址，再把该地址单独放在这里。仓库内的本地 `.mp4` 保留为完整演示文件，具体步骤见 [docs/github-readme-video.md](docs/github-readme-video.md)。
 
-[docs/demo/focusdock-demo-2026-05-24.mp4](docs/demo/focusdock-demo-2026-05-24.mp4)
+[![anchor-beta demo preview](docs/images/focus-page.png)](docs/demo/anchor-beta-demo-2026-05-24.mp4)
+
+完整演示视频：[docs/demo/anchor-beta-demo-2026-05-24.mp4](docs/demo/anchor-beta-demo-2026-05-24.mp4)
 
 关键页面截图：
 
@@ -31,7 +33,7 @@ FocusDock 是一个硬件联动的专注启动器：把手机放到 Dock 上，�
 ## 项目结构
 
 ```text
-focusdock/
+anchor-beta/
 |-- software/
 |   |-- frontend-mobile/   # 主演示前端，移动端优先 PWA
 |   |-- frontend-web/      # 横屏/桌面演示前端
@@ -43,8 +45,9 @@ focusdock/
 |-- docs/
 |   |-- demo/              # 项目演示视频
 |   |-- images/            # README 截图
+|   |-- github-readme-video.md
 |   |-- hardware-vl53l0x.md
-|   |-- focusdock_hardware_ppt.html
+|   |-- anchor-beta-hardware-ppt.html
 |   `-- software/frontend.md
 |-- LICENSE
 |-- CONTRIBUTING.md
@@ -152,6 +155,6 @@ npm start
 
 ## 许可证
 
-本项目使用 FocusDock Non-Commercial License。允许个人、教育、研究、评估和非商业黑客松演示使用；未经书面许可，禁止商业使用。
+本项目使用 anchor-beta Non-Commercial License。允许个人、教育、研究、评估和非商业黑客松演示使用；未经书面许可，禁止商业使用。
 
 详见 [LICENSE](LICENSE)。

@@ -1,6 +1,6 @@
 # Frontend Notes
 
-FocusDock 包含两个 React + Vite 前端，它们共享同一个 Node.js 后端 API 和 WebSocket 设备通道。
+anchor-beta 包含两个 React + Vite 前端，它们共享同一个 Node.js 后端 API 和 WebSocket 设备通道。
 
 ## 应用
 

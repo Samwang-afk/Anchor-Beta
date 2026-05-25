@@ -8,8 +8,8 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'FocusDock',
-        short_name: 'FocusDock',
+        name: 'anchor-beta',
+        short_name: 'anchor-beta',
         theme_color: '#f7e7bf',
         background_color: '#fffaf0',
         display: 'standalone',

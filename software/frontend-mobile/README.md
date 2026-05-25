@@ -1,4 +1,4 @@
-# FocusDock Mobile Frontend
+# anchor-beta Mobile Frontend
 
 移动端优先的主演示界面，负责思绪整理、任务启动、硬件联动、全屏专注倒计时、完成鼓励和成长收藏。
 
