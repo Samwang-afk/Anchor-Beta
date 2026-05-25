@@ -12,7 +12,6 @@ anchor-beta 是一个硬件联动的专注启动器：把手机放到 Dock 上�
 
 > GitHub README 想直接显示视频播放器时，需要把 `.mp4` 上传到 GitHub 的 Markdown 编辑器，得到 `https://github.com/user-attachments/assets/...` 形式的视频地址，再把该地址单独放在这里。仓库内的本地 `.mp4` 保留为完整演示文件，具体步骤见 [docs/github-readme-video.md](docs/github-readme-video.md)。
 
-[![anchor-beta demo preview](docs/images/focus-page.png)](docs/demo/anchor-beta-demo-2026-05-24.mp4)
 
 完整演示视频：[docs/demo/anchor-beta-demo-2026-05-24.mp4](docs/demo/anchor-beta-demo-2026-05-24.mp4)
 
