@@ -1,5 +1,38 @@
+# Dependencies
 node_modules/
+
+# Build outputs
 dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Environment and secrets
 .env
-.env.local
-*.local
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python / MicroPython local artifacts
+__pycache__/
+*.pyc
+.thonny_user/
+
+# Local state
+pet_state.json
+
+# Browser automation profiles and generated work dirs
+ottodock_work/
+ottodock_deployed_current/
+release_extract/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
