@@ -1,7 +1,7 @@
-# anchor-beta
+# Anchor-beta
 
 anchor-beta 是一个硬件联动的专注启动器：把手机放到 Dock 上，网页自动进入全屏专注倒计时；完成一个小任务后，网页给出鼓励和休息流程，同时向 ESP32 发送祝贺提示。
-
+Note:原名为focusdock，在commit message里可能有出现
 项目由三部分组成：
 
 - `software/`：React 前端 + Node.js API/WebSocket 后端
